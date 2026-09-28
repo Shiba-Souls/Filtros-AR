@@ -95,7 +95,7 @@ An interactive Real-Time Augmented Reality (AR) Portal application that tracks h
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/mishu006/Filters.git
+git clone https://github.com/Shiba-Souls/Filtros-AR.git
 cd Filters
 ```
 
