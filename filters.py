@@ -66,13 +66,6 @@ def filtro_6(roi: np.ndarray) -> np.ndarray:
     return out
 
 
-def filtro_blanco(roi: np.ndarray) -> np.ndarray:
-    blurred = cv2.GaussianBlur(roi, (35, 35), 0)
-    white = np.full_like(roi, 255)
-    out = cv2.addWeighted(blurred, 0.55, white, 0.45, 0)
-    return out
-
-
 def filtro_rosa(roi: np.ndarray) -> np.ndarray:
     gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
     h, w = gray.shape
@@ -112,6 +105,5 @@ FILTROS = [
     filtro_3,
     filtro_5,
     filtro_6,
-    filtro_blanco,
     filtro_rosa,
 ]
