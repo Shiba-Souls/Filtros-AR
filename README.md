@@ -4,7 +4,7 @@ An interactive Real-Time Augmented Reality (AR) Portal application that tracks h
 
 > **👤 Original Project by**: [mishu006](https://github.com/mishu006)  
 > **🛠️ Fixed, Modernized & Upgraded by**: [baraamallah](https://github.com/baraamallah)  
-> 
+> **Modded by**: [Shiba-Souls](https://github.com/Shiba-Souls)
 > Upgraded to the latest **MediaPipe Tasks API** (`HandLandmarker`), resolving legacy `mp.solutions` deprecation errors, adding Python 3.13 compatibility, custom gesture controls, dynamic filter sizing, multi-level sensitivity adjustment, and an interactive settings menu.
 
 ---
